@@ -1,0 +1,56 @@
+/* src/components/PokemonList.css */
+
+/* Estilize o fundo da página com uma cor relacionada aos Pokémon */
+body {
+  background-color: #f5f5f5; /* Cor de fundo geral */
+}
+
+/* Estilize o cabeçalho com uma cor de destaque */
+h1 {
+  color: #f44242; /* Vermelho Pokémon */
+}
+
+/* Estilize a lista de Pokémon */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fdfffe; /* Cor de fundo das entradas de Pokémon */
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: inline-block;
+  width: calc(25% - 20px); /* Distribuir em 4 colunas com margens */
+  text-align: center;
+  color: black;
+}
+
+/* Estilize os botões de página */
+button {
+  background-color: #0078d4; /* Azul Pokémon */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+/* Estilize o input de pesquisa */
+.input-search {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #0078d4; /* Azul Pokémon */
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+}
+
+.input-search::placeholder {
+  color: #aaa; /* Cor do texto de placeholder */
+}
